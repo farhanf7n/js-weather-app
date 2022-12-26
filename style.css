@@ -23,6 +23,7 @@ body {
 .header {
   display: flex;
   align-items: center;
+  padding: 2rem 0rem;
 }
 
 .header-left {
@@ -69,7 +70,7 @@ body {
 .label {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: white;
 }
 
@@ -82,7 +83,7 @@ body {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 75px);
-  padding: 1rem;
+  padding: 2rem 0rem;
   gap: 1rem;
   align-items: center;
 }
@@ -104,4 +105,22 @@ body {
 
 .day-card svg {
   fill: white;
+}
+
+.hour-section {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+}
+
+.hour-row {
+  background-color: #523b7b57;
+}
+
+.hour-row > td {
+  padding: 0.25rem 0.5rem;
+}
+
+.hour-row:nth-child(2n) {
+  background-color: #06020d1a;
 }
